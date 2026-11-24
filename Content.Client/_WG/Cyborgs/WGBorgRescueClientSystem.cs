@@ -11,8 +11,8 @@ namespace Content.Client._WG.Cyborgs;
 /// <summary>Adjusts rescued patient rendering to the borg's facing direction.</summary>
 public sealed class WGBorgRescueClientSystem : EntitySystem
 {
-    private const float BackViewPatientLift = 0.5f;
-    private const float SideViewPatientLift = 0.5f;
+    private const float BackViewPatientLift = 0.4f;
+    private const float SideViewPatientLift = 0.2f;
 
     [Dependency] private IEyeManager _eye = default!;
     [Dependency] private SharedTransformSystem _transform = default!;

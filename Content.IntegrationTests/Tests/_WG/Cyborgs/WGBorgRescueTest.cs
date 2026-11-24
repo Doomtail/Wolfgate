@@ -159,7 +159,7 @@ public sealed class WGBorgRescueTest
             Assert.Multiple(() =>
             {
                 Assert.That(patientSprite.DrawDepth, Is.EqualTo(borgDepth + 2), "The back view draws the patient in front of the borg.");
-                Assert.That(patientSprite.Offset.Y - originalOffset.Y, Is.EqualTo(0.5f).Within(0.5f), "Only the back view lifts the patient sprite.");
+                Assert.That(patientSprite.Offset.Y - originalOffset.Y, Is.EqualTo(0.4f).Within(0.1f), "Only the back view lifts the patient sprite.");
             });
         });
 
@@ -192,7 +192,7 @@ public sealed class WGBorgRescueTest
             Assert.Multiple(() =>
             {
                 Assert.That(patientSprite.DrawDepth, Is.EqualTo(borgDepth + 1), "Side views draw the patient in front of the borg.");
-                Assert.That(patientSprite.Offset.Y, Is.EqualTo(frontViewOffset + 0.5f).Within(0.5f), "Side views lift the patient sprite.");
+                Assert.That(patientSprite.Offset.Y, Is.EqualTo(frontViewOffset + 0.2f).Within(0.1f), "Side views lift the patient sprite.");
             });
         });
 

@@ -59,7 +59,7 @@ public sealed class WGBorgSkinTest
                 if (type.SpriteBodyMovementState is { } movement)
                     states.Add(movement);
 
-                 if (prototypes.TryIndex<WGBorgSkinPrototype>(subtype.ID, out var skin) && skin.Walks)
+                if (hasSkin && skin is { Walks: true })
                 {
                     foreach (var state in states.ToArray())
                     {

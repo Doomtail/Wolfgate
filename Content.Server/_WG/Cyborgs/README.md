@@ -128,6 +128,7 @@ borg-bound AI, the overwatch view and the chassis company.
 - [`Content.IntegrationTests/Tests/_WG/Cyborgs/BorgStackRefillTest.cs`](../../../Content.IntegrationTests/Tests/_WG/Cyborgs/BorgStackRefillTest.cs)
 - [`Content.IntegrationTests/Tests/_WG/Cyborgs/FactionBorgCardTest.cs`](../../../Content.IntegrationTests/Tests/_WG/Cyborgs/FactionBorgCardTest.cs)
 - [`Content.IntegrationTests/Tests/_WG/Cyborgs/WGAiCoreTest.cs`](../../../Content.IntegrationTests/Tests/_WG/Cyborgs/WGAiCoreTest.cs)
+- [`Content.IntegrationTests/Tests/_WG/Cyborgs/WGViperAssaultModuleTest.cs`](../../../Content.IntegrationTests/Tests/_WG/Cyborgs/WGViperAssaultModuleTest.cs)
 
 ### Prototypes
 
